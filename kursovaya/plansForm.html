@@ -1,0 +1,12 @@
+<table align='center'><td><h3>Добавить новое событие</h3></td></table>
+<form action="addIvent.php" method=GET>
+	<table align="center" cellspacing="3" cellpadding="3">
+	<tr><td width="100">Дата в формате ГГГГ-ММ-ДД (2019-05-01) <br><input required type=text name="date"><br></td></tr>
+	<tr><td width="100">Время <br><input type=text name="time"><br></td></tr>
+	<tr><td width="100">Событие <br><input required maxlength="255" type=text name="ivent"><br></td></tr>
+	<tr><td width="100">Комментарий <br><input maxlength="255" type=text name="comment"><br><br></td></tr>
+	<tr><td colspan="3" width="100" align="center">
+	<input type=submit value="Отправить">
+	<input type=reset value="Отменить">
+	</td></tr></table>
+</form>
